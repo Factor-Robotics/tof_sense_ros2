@@ -24,7 +24,7 @@ from launch_ros.events.lifecycle import matches_node_name
 from lifecycle_msgs.msg import Transition
 
 tof_sense_params = [
-    {"device_name": '/dev/ttyUSB0'},
+    {"device_name": '/dev/ttyAMA1'},
     {"baud_rate": 115200},
     {"num_sensors": 2},
     {"field_of_view": 0.4712389},
